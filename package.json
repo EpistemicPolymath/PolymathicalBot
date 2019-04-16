@@ -1,0 +1,15 @@
+{
+  "name": "polychatbot",
+  "version": "1.0.0",
+  "description": "A practice attempt at making my own Twitch chat bot.",
+  "main": "polybot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EpistemicPolymath",
+  "license": "ISC",
+  "dependencies": {
+    "envar": "^2.0.0",
+    "twitch-js": "^1.2.17"
+  }
+}
