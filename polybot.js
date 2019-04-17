@@ -47,7 +47,7 @@ client.on('chat', (channel, user, message, self) => {
     if (self) return;
 
     // Say hello to the user that uses the !hello command
-    if (message === '!hello') {
+    if (message === '!hello' && user['mod'] === false) {
         client.action('epistemicpolymath', `Hey, ${user[`display-name`]}!`);
     }
 
