@@ -36,6 +36,11 @@ client.on('connected', (address, port) => {
     client.action('epistemicpolymath', 'Hey there, PolymathicalBot is now connected!');
 });
 
+// Set Intervals Messages
+const helloCommandInterval = setInterval(() => {
+    client.action('epistemicpolymath', 'Say Hello to polymathicalbot with: !hello');
+}, 300000);
+
 // When a chat action happens
 client.on('chat', (channel, user, message, self) => {
     // Do not listen to my own bot messages
@@ -50,11 +55,6 @@ client.on('chat', (channel, user, message, self) => {
     if (message === '!hello' && user['mod'] === true) {
       client.action('epistemicpolymath', `Hey, ${user[`display-name`]}! Thank you for being an awesome mod :D`);
     }
-
-    // Set Intervals Messages
-    const helloCommandInterval = setInterval(() => {
-        client.action('epistemicpolymath', 'Say Hello to polymathicalbot with: !hello');
-    }, 300000);
 
     // Github Link for the Bot
     if (message === "!github") {
