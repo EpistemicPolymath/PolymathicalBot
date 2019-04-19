@@ -39,7 +39,7 @@ client.on('connected', (address, port) => {
 // Set Intervals Messages
 const helloCommandInterval = setInterval(() => {
     client.action('epistemicpolymath', 'Say Hello to polymathicalbot with: !hello');
-}, 300000);
+}, 600000);
 
 // When a chat action happens
 client.on('chat', (channel, user, message, self) => {
