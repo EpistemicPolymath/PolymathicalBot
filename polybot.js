@@ -71,20 +71,7 @@ client.on('chat', (channel, user, message, self) => {
     }
 
     if(message === "!commands") {
-        client.action('epistemicpolymath',
-      `
-        !hello - say hello to the bot!
-
-        !github - gives you the Github link for the bot!
-
-        !jak1boards - gives you the link to Jak 1 boards on speedrun.com
-
-        !hundoboards - gives you the link to Jak 100% boards on speedrun.com
-
-        !commands - lists all available commands
-
-        More commands to come :D
-      `);
+        client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath/PolymathicalBot/tree/master#a-general-list-of-commands');
     }
 
 });
