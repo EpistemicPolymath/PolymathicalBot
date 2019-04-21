@@ -41,6 +41,11 @@ const helloCommandInterval = setInterval(() => {
     client.action('epistemicpolymath', 'Say Hello to polymathicalbot with: !hello');
 }, 600000);
 
+// Set interval for !commands command
+const commandsCommandInterval = setInterval(() => {
+    client.action('epistemicpolymath', 'View available bot commands: !commands');
+}, 900000);
+
 // When a chat action happens
 client.on('chat', (channel, user, message, self) => {
     // Do not listen to my own bot messages
