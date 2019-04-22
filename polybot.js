@@ -46,6 +46,10 @@ const commandsCommandInterval = setInterval(() => {
     client.action('epistemicpolymath', 'View available bot commands: !commands');
 }, 900000);
 
+const serveyCommandInterval = setInterval(() => {
+    client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
+}, 1200000);
+
 // When a chat action happens
 client.on('chat', (channel, user, message, self) => {
     // Do not listen to my own bot messages
@@ -77,6 +81,10 @@ client.on('chat', (channel, user, message, self) => {
 
     if(message === "!commands") {
         client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath/PolymathicalBot/tree/master#a-general-list-of-commands');
+    }
+
+    if (message === "!comments") {
+        client.action('epistemicpolymath', 'https://forms.gle/EKQygWHEdAoaKd4t9');
     }
 
 });
