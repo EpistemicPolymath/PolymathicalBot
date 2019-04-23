@@ -93,7 +93,7 @@ client.on('chat', (channel, user, message, self) => {
 
     // Links to the GitHub list of commands for the bot
     if(message === "!commands") {
-        client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath/PolymathicalBot/tree/master#a-general-list-of-commands');
+        client.action('epistemicpolymath', 'http://bit.ly/polymathicalcommands');
     }
 
     // Links to a Google Form so viewers can give comments / stream suggestions
