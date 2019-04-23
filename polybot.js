@@ -48,11 +48,6 @@ const commandsCommandInterval = setTimeout(() => { setInterval(() => {
 }, 900000);
 }, 180000);
 
-// Set interval so the viewers know where to submit comments about he stream
-// const serveyCommandInterval = setInterval(() => {
-//     client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
-// }, 1200000);
-
 const serveyCommandInterval = setTimeout(() => { setInterval(() => {
     client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
 }, 1200000);
