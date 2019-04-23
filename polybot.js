@@ -87,7 +87,7 @@ client.on('chat', (channel, user, message, self) => {
     }
 
     // Gives invite link for the Jak Speedruns Discord
-    if (message === '!!jakdiscord') {
+    if (message === '!jakdiscord') {
         client.action('epistemicpolymath', 'https://discord.gg/HUzXuNn');
     }
 
