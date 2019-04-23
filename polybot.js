@@ -43,14 +43,20 @@ const helloCommandInterval = setInterval(() => {
 }, 600000);
 
 // Set interval for !commands
-const commandsCommandInterval = setInterval(() => {
+const commandsCommandInterval = setTimeout(() => { setInterval(() => {
     client.action('epistemicpolymath', 'View available bot commands: !commands');
 }, 900000);
+}, 180000);
 
 // Set interval so the viewers know where to submit comments about he stream
-const serveyCommandInterval = setInterval(() => {
+// const serveyCommandInterval = setInterval(() => {
+//     client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
+// }, 1200000);
+
+const serveyCommandInterval = setTimeout(() => { setInterval(() => {
     client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
 }, 1200000);
+}, 120000);
 
 // When a chat action happens
 client.on('chat', (channel, user, message, self) => {
