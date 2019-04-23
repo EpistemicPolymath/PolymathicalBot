@@ -86,6 +86,11 @@ client.on('chat', (channel, user, message, self) => {
       client.action('epistemicpolymath', 'https://www.speedrun.com/jak1#100');
     }
 
+    // Gives invite link for the Jak Speedruns Discord
+    if (message === '!!jakdiscord') {
+        client.action('epistemicpolymath', 'https://discord.gg/HUzXuNn');
+    }
+
     // Jak Debug command - links to more information about debug
     if (message === '!jakdebug') {
         client.action('epistemicpolymath', 'https://jadtech.miraheze.org/wiki/Debug_Mode');
