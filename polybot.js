@@ -37,15 +37,17 @@ client.on('connected', (address, port) => {
 });
 
 // Set Intervals Messages
+// Tells the Viewers to say !hello to the lonely bot
 const helloCommandInterval = setInterval(() => {
     client.action('epistemicpolymath', 'Say Hello to polymathicalbot with: !hello');
 }, 600000);
 
-// Set interval for !commands command
+// Set interval for !commands
 const commandsCommandInterval = setInterval(() => {
     client.action('epistemicpolymath', 'View available bot commands: !commands');
 }, 900000);
 
+// Set interval so the viewers know where to submit comments about he stream
 const serveyCommandInterval = setInterval(() => {
     client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
 }, 1200000);
@@ -70,19 +72,31 @@ client.on('chat', (channel, user, message, self) => {
         client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath/PolymathicalBot');
     }
 
+    // if (message === "!polygithub") {
+    //     client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath');
+    // }
+
     // LeaderBoards Commands
     // Jak 1 Leaderboard
     if (message === '!jak1boards') {
         client.action('epistemicpolymath', 'https://www.speedrun.com/jak1');
     }
+    // Jak 1 100% Boards
     if (message === '!hundoboards') {
       client.action('epistemicpolymath', 'https://www.speedrun.com/jak1#100');
     }
 
+    // Jak Debug command - links to more information about debug
+    if (message === '!jakdebug') {
+        client.action('epistemicpolymath', 'https://jadtech.miraheze.org/wiki/Debug_Mode');
+    }
+
+    // Links to the GitHub list of commands for the bot
     if(message === "!commands") {
         client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath/PolymathicalBot/tree/master#a-general-list-of-commands');
     }
 
+    // Links to a Google Form so viewers can give comments / stream suggestions
     if (message === "!comments") {
         client.action('epistemicpolymath', 'https://forms.gle/EKQygWHEdAoaKd4t9');
     }
