@@ -9,6 +9,7 @@
   "author": "EpistemicPolymath",
   "license": "ISC",
   "dependencies": {
+    "csv-writer": "^1.3.0",
     "envar": "^2.0.0",
     "twitch-js": "^1.2.17"
   }
