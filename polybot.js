@@ -118,7 +118,13 @@ client.on('chat', (channel, user, message, self) => {
     }
 
     // !note {content} command
-    if (message.trim().includes("!note") && ( user['mod'] === true || user['badges-raw'].includes("broadcaster"))) {
+    /*
+      Code to make !note command only available to mods and broadcaster
+      && ( user['mod'] === true || user['badges-raw'].includes("broadcaster"))
+
+      It is now set so that so that anyone can leave notes. Will change if necessary.
+     */
+    if (message.trim().includes("!note")) {
         // console.log(user);
         const noteRegex = /(!note)\s{1}(\b((?!=|\,|\.).)+(.){1,}\b)/;
         if (noteRegex.test(message.trim())) {
