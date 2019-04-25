@@ -83,9 +83,10 @@ client.on('chat', (channel, user, message, self) => {
         client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath/PolymathicalBot');
     }
 
-    // if (message === "!polygithub") {
-    //     client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath');
-    // }
+    // My personal GitHub Link
+    if (message.trim() === "!polygithub") {
+        client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath');
+    }
 
     // LeaderBoards Commands
     // Jak 1 Leaderboard
@@ -125,8 +126,8 @@ client.on('chat', (channel, user, message, self) => {
       It is now set so that so that anyone can leave notes. Will change if necessary.
      */
     if (message.trim().includes("!note")) {
-        // console.log(user);
-        const noteRegex = /(!note)\s{1}(\b((?!=|\,|\.).)+(.){1,}\b)/;
+        // https://www.regextester.com/93986
+        const noteRegex = /(!note)\s(\b((?!=|\,|\.).)+(.){1,}\b)/;
         if (noteRegex.test(message.trim())) {
           const noteArray = noteRegex.exec(message.trim());
         /*  Will give an array of the note contents
@@ -143,7 +144,7 @@ client.on('chat', (channel, user, message, self) => {
        ];
 
        // Write to the file
-       csvWriter
+       csvWriter // Creates a Promise
         .writeRecords(note)
         .then(() =>   client.action('epistemicpolymath', 'The note was saved successfully, Thank you :D'));
 
