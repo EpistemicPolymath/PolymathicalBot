@@ -126,8 +126,7 @@ client.on('chat', (channel, user, message, self) => {
       It is now set so that so that anyone can leave notes. Will change if necessary.
      */
     if (message.trim().includes("!note")) {
-        // https://www.regextester.com/93986
-        const noteRegex = /(!note)\s(\b((?!=|\,|\.).)+(.){1,}\b)/;
+        const noteRegex = /(!note)\s(.+)/;
         if (noteRegex.test(message.trim())) {
           const noteArray = noteRegex.exec(message.trim());
         /*  Will give an array of the note contents
@@ -135,9 +134,7 @@ client.on('chat', (channel, user, message, self) => {
            1: "!note"
            2: "{note contents}"
         */
-       console.log(noteArray);
-        console.log(noteArray[1]);
-        console.log(noteArray[2]);
+
        // The records
        const note = [
           {username: user['display-name'], noteContent: noteArray[2].trim()}
