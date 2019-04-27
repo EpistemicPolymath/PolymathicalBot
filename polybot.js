@@ -2,9 +2,39 @@
 var envar = require("envar");
 envar.import('env.json');
 const auth = envar('oauth');
+const client_id = envar('client-id');
 
 const tmi = require('twitch-js');
 // To Actually run and test the bot: node index.js
+
+// New Twitch API
+const querystring = require("querystring"),
+  fetch = require("node-fetch");
+
+const streams_url = "https://api.twitch.tv/helix/streams";
+
+// JSON objects - These are the custom query strings for the streams request
+const qs = querystring.stringify({
+      // first: 1
+      // user_login: "EpistemicPolymath"
+      user_login: "Ramez05"
+});
+
+// Template Strings used to make the streams URL w/ our custom query strings
+const qURL = `${streams_url}?${qs}`;
+
+// Adds the client id as a header for the fetch
+const fetchArgs = {
+    headers: {
+        "Client-ID": client_id
+    }
+};
+
+// Final fetch API call
+fetch(qURL, fetchArgs)
+    .then(response => response.json()) // Get JSON Response
+    .then(data => startTime = new Date(data.data[0].started_at)) // View the Retrieved Data
+    .catch(error => console.error(error)); // Catch any Errors
 
 // CSV-Writer Initiation
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
@@ -116,6 +146,22 @@ client.on('chat', (channel, user, message, self) => {
     // Links to a Google Form so viewers can give comments / stream suggestions
     if (message.trim() === "!comments") {
         client.action('epistemicpolymath', 'https://forms.gle/EKQygWHEdAoaKd4t9');
+    }
+
+    // Uptime command
+    if (message.trim() === "!uptime") {
+        // Calculate the uptime using fetched variable and current time
+        // Current Date and Time
+        const now = new Date();
+        // https://stackoverflow.com/questions/4944750/how-to-subtract-date-time-in-javascript
+        const dateDiff = Math.abs(now - startTime); // milliseconds
+        console.log(now);
+        console.log(startTime);
+        console.log(dateDiff);
+        const seconds = dateDiff / 1000;
+        const minutes = seconds / 60;
+        const hours = Math.floor(minutes / 60);
+        client.action('epistemicpolymath', `EpistemicPolymath has been streaming for ${hours} hours and ${minutes % 60} minutes and ${seconds} seconds`);
     }
 
     // !note {content} command
