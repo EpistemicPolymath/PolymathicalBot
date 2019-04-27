@@ -5,6 +5,7 @@ A Twitch Chat bot using Twitch-js.
 # A General List of Commands
 
 - **!hello** - say hello to the bot!
+- **!uptime** - tells you how long I have been live!
 - **!github** - gives you the GitHub link for the bot!
 - **!polygithub** - gives a link to my personal GitHub. Not much here yet :P.
 - **!jak1boards** - gives you the link to Jak 1 boards on speedrun.com.
