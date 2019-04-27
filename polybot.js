@@ -15,9 +15,7 @@ const streams_url = "https://api.twitch.tv/helix/streams";
 
 // JSON objects - These are the custom query strings for the streams request
 const qs = querystring.stringify({
-      // first: 1
-      // user_login: "EpistemicPolymath"
-      user_login: "Ramez05"
+      user_id: "92433498"
 });
 
 // Template Strings used to make the streams URL w/ our custom query strings
@@ -152,16 +150,16 @@ client.on('chat', (channel, user, message, self) => {
     if (message.trim() === "!uptime") {
         // Calculate the uptime using fetched variable and current time
         // Current Date and Time
-        const now = new Date();
+        let now = new Date();
         // https://stackoverflow.com/questions/4944750/how-to-subtract-date-time-in-javascript
-        const dateDiff = Math.abs(now - startTime); // milliseconds
+        let dateDiff = now - startTime; // milliseconds
         console.log(now);
         console.log(startTime);
         console.log(dateDiff);
-        const seconds = dateDiff / 1000;
-        const minutes = seconds / 60;
-        const hours = Math.floor(minutes / 60);
-        client.action('epistemicpolymath', `EpistemicPolymath has been streaming for ${hours} hours and ${minutes % 60} minutes and ${seconds} seconds`);
+        let seconds = dateDiff / 1000;
+        let minutes = Math.trunc(seconds / 60);
+        let hours = Math.floor(minutes / 60);
+        client.action('epistemicpolymath', `EpistemicPolymath has been streaming for ${hours} hour(s) and ${minutes % 60} minute(s)`);
     }
 
     // !note {content} command
