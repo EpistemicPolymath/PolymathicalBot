@@ -141,6 +141,11 @@ client.on('chat', (channel, user, message, self) => {
         client.action('epistemicpolymath', 'https://amzn.to/2UWJFwA');
     }
 
+    // Add me on Discord Command
+    if (message.trim() === "!addmediscord") {
+        client.action('epistemicpolymath', 'polymathicalオタク#1183');
+    }
+
     // Links to the GitHub list of commands for the bot
     if(message.trim() === "!commands") {
         client.action('epistemicpolymath', 'http://bit.ly/polymathicalcommands');
