@@ -10,7 +10,9 @@ A Twitch Chat bot using Twitch-js.
 - **!polygithub** - gives a link to my personal GitHub. Not much here yet :P.
 - **!jak1boards** - gives you the link to Jak 1 boards on speedrun.com.
 - **!jakdiscord** - shares the Discord invite link for the Jak Speedruns Discord server.
+- **!addmediscord** - allows users to copy and paste my username to easily add me on Discord.
 - **!jakdebug** - gives a link to more information about Debug Mode in the Jak Games.
+- **!retrocapcard** - gives users the link to the Gv-Usb2 capture card on Amazon. 
 - **!hundoboards** - gives you the link to Jak 100% boards on speedrun.com.
 - **!note** - remind me of something or leave me a note that is stored on a .csv file.
 - **!comments** - gives you a link to a Google Form so you can privately submit comments / recommendations for the stream.
