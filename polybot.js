@@ -136,6 +136,11 @@ client.on('chat', (channel, user, message, self) => {
         client.action('epistemicpolymath', 'https://jadtech.miraheze.org/wiki/Debug_Mode');
     }
 
+    // Capture Card Command for Gv-Usb2
+    if (message.trim() === "!retrocapcard") {
+        client.action('epistemicpolymath', 'https://amzn.to/2UWJFwA');
+    }
+
     // Links to the GitHub list of commands for the bot
     if(message.trim() === "!commands") {
         client.action('epistemicpolymath', 'http://bit.ly/polymathicalcommands');
