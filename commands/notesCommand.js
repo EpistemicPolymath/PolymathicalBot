@@ -1,7 +1,7 @@
 // CSV-Writer Initiation
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const csvWriter = createCsvWriter({
-  path: '../notes.csv',
+  path: 'notes.csv', // the file path to the notes.csv file is relative to the root directory of the project and not the file it is being called from
   header: [
     {id: 'username', title: 'Viewer'},
     {id: 'noteContent', title: 'Note'},
@@ -32,13 +32,13 @@ const notesCommand = (message, user) => {
      ];
 
      // Write to the file
-     csvWriter // Creates a Promise
-      .writeRecords(note)
+     csvWriter
+      .writeRecords(note) // Creates a Promise
       .then(() => console.log('The note was saved successfully, Thank you :D'))
       .catch((error => console.log(error)));
-
+      return 'The note was saved successfully, Thank you :D';
     } else {
-         '!note command not formatted properly try again';
+         return '!note command not formatted properly try again';
     }
 
   }
