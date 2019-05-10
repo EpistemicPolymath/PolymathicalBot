@@ -1,6 +1,5 @@
-const helpImproveStream = setTimeout(() => { setInterval(() => {
-    client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
-}, 1200000);
-}, 120000);
+const helpImproveStream = () => {
+  return 'Help improve the stream!: !comments';
+};
 
 module.exports = helpImproveStream;

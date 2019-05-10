@@ -18,7 +18,25 @@ let intervalFunctions = intervals.map((interval) => {
     return require(`./intervals/${interval}.js`);
 });
 
-console.log(intervalFunctions[0]);
+let commands = [
+    'helloCommand',
+    'githubCommand',
+    'polyGithubCommand',
+    'jak1BoardsCommand',
+    'hundoBoardsCommand',
+    'jakDiscordCommand',
+    'jakDebugCommand',
+    'retroCapCardCommand',
+    'addMeDiscordCommand',
+    'getCommandsCommand',
+    'commentsCommand',
+    'notesCommand',
+];
+
+let commandFunctions = commands.map((command) => {
+    return require(`./commands/${command}.js`);
+});
+
 
 // New Twitch API
 const querystring = require("querystring"),
@@ -46,16 +64,6 @@ fetch(qURL, fetchArgs)
     .then(response => response.json()) // Get JSON Response
     .then(data => startTime = new Date(data.data[0].started_at)) // View the Retrieved Data
     .catch(error => console.error(error)); // Catch any Errors
-
-// CSV-Writer Initiation
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-const csvWriter = createCsvWriter({
-  path: 'notes.csv',
-  header: [
-    {id: 'username', title: 'Viewer'},
-    {id: 'noteContent', title: 'Note'},
-  ]
-});
 
 
 // ChatBot Configuration Options
@@ -87,70 +95,35 @@ client.on('connected', (address, port) => {
     client.action('epistemicpolymath', 'Hey there, PolymathicalBot is now connected!');
 });
 
+// Interval Messages
+setInterval(() => {
+  /**
+   * Math.floor() - rounds the number down to nearest whole number
+   * Math.random() - generates a random decimal number if we multiply that random decimal number by a whole number we can get a range 0 - (num-1)
+   * We can use this to get a random whole number the contains a range of the length of our interval functions including zero
+   */
+    let index = Math.floor(Math.random() * intervalFunctions.length);
+    client.action('epistemicpolymath', intervalFunctions[index]());
+}, 600000); // Every 10 minutes run a random command
+
+
 // When a chat action happens
 client.on('chat', (channel, user, message, self) => {
     // Do not listen to my own bot messages
     if (self) return;
 
-    // Say hello to the user that uses the !hello command
-    if (message.trim() === '!hello' && user['mod'] === false) {
-        client.action('epistemicpolymath', `Hey, ${user[`display-name`]}!`);
-    }
+    // Trim All Incoming Messages
+    let trimmedMessage = message.trim();
 
-    // Say hello and thank a user that is a mod that uses !hello command
-    if (message.trim() === '!hello' && user['mod'] === true) {
-      client.action('epistemicpolymath', `Hey, ${user[`display-name`]}! Thank you for being an awesome mod :D`);
-    }
-
-    // Github Link for the Bot
-    if (message.trim() === "!github") {
-        client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath/PolymathicalBot');
-    }
-
-    // My personal GitHub Link
-    if (message.trim() === "!polygithub") {
-        client.action('epistemicpolymath', 'https://github.com/EpistemicPolymath');
-    }
-
-    // LeaderBoards Commands
-    // Jak 1 Leaderboard
-    if (message.trim() === '!jak1boards') {
-        client.action('epistemicpolymath', 'https://www.speedrun.com/jak1');
-    }
-    // Jak 1 100% Boards
-    if (message.trim() === '!hundoboards') {
-      client.action('epistemicpolymath', 'https://www.speedrun.com/jak1#100');
-    }
-
-    // Gives invite link for the Jak Speedruns Discord
-    if (message.trim() === '!jakdiscord') {
-        client.action('epistemicpolymath', 'https://discord.gg/HUzXuNn');
-    }
-
-    // Jak Debug command - links to more information about debug
-    if (message.trim() === '!jakdebug') {
-        client.action('epistemicpolymath', 'https://jadtech.miraheze.org/wiki/Debug_Mode');
-    }
-
-    // Capture Card Command for Gv-Usb2
-    if (message.trim() === "!retrocapcard") {
-        client.action('epistemicpolymath', 'https://amzn.to/2UWJFwA');
-    }
-
-    // Add me on Discord Command
-    if (message.trim() === "!addmediscord") {
-        client.action('epistemicpolymath', 'polymathicalオタク#1183');
-    }
-
-    // Links to the GitHub list of commands for the bot
-    if(message.trim() === "!commands") {
-        client.action('epistemicpolymath', 'http://bit.ly/polymathicalcommands');
-    }
-
-    // Links to a Google Form so viewers can give comments / stream suggestions
-    if (message.trim() === "!comments") {
-        client.action('epistemicpolymath', 'https://forms.gle/EKQygWHEdAoaKd4t9');
-    }
+    // Send command functions necessary values
+    commandFunctions.forEach((command) => {
+      if (typeof command === "function") {
+        let response = command(trimmedMessage, user, channel);
+          if(response){
+              client.action('epistemicpolymath', response);
+          }
+      }
+    });
 
     // Uptime command
     if (message.trim() === "!uptime") {
@@ -168,37 +141,6 @@ client.on('chat', (channel, user, message, self) => {
         client.action('epistemicpolymath', `EpistemicPolymath has been streaming for ${hours} hour(s) and ${minutes % 60} minute(s)`);
     }
 
-    // !note {content} command
-    /*
-      Code to make !note command only available to mods and broadcaster
-      && ( user['mod'] === true || user['badges-raw'].includes("broadcaster"))
 
-      It is now set so that so that anyone can leave notes. Will change if necessary.
-     */
-    if (message.trim().includes("!note")) {
-        const noteRegex = /(!note)\s(.+)/;
-        if (noteRegex.test(message.trim())) {
-          const noteArray = noteRegex.exec(message.trim());
-        /*  Will give an array of the note contents
-           0: "!note" "{note contents}"
-           1: "!note"
-           2: "{note contents}"
-        */
-
-       // The records
-       const note = [
-          {username: user['display-name'], noteContent: noteArray[2].trim()}
-       ];
-
-       // Write to the file
-       csvWriter // Creates a Promise
-        .writeRecords(note)
-        .then(() =>   client.action('epistemicpolymath', 'The note was saved successfully, Thank you :D'));
-
-      } else {
-          client.action('epistemicpolymath', '!note command not formatted properly try again');
-      }
-
-    }
 
 });
