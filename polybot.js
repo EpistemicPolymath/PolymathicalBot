@@ -31,6 +31,7 @@ let commands = [
     'getCommandsCommand',
     'commentsCommand',
     'notesCommand',
+    'uptimeCommand'
 ];
 
 let commandFunctions = commands.map((command) => {
@@ -118,29 +119,21 @@ client.on('chat', (channel, user, message, self) => {
     // Send command functions necessary values
     commandFunctions.forEach((command) => {
       if (typeof command === "function") {
+        if (command.name === "uptimeCommand") {
+          if (typeof startTime === "undefined") {
+            return;
+          }
+            let response = command(trimmedMessage, startTime);
+            if(response) {
+              client.action('epistemicpolymath', response);
+            }
+              return;
+        }
         let response = command(trimmedMessage, user, channel);
           if(response){
               client.action('epistemicpolymath', response);
           }
       }
     });
-
-    // Uptime command
-    if (message.trim() === "!uptime") {
-        // Calculate the uptime using fetched variable and current time
-        // Current Date and Time
-        let now = new Date();
-        // https://stackoverflow.com/questions/4944750/how-to-subtract-date-time-in-javascript
-        let dateDiff = now - startTime; // milliseconds
-        console.log(now);
-        console.log(startTime);
-        console.log(dateDiff);
-        let seconds = dateDiff / 1000;
-        let minutes = Math.trunc(seconds / 60);
-        let hours = Math.floor(minutes / 60);
-        client.action('epistemicpolymath', `EpistemicPolymath has been streaming for ${hours} hour(s) and ${minutes % 60} minute(s)`);
-    }
-
-
 
 });
