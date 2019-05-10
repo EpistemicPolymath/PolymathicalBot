@@ -7,6 +7,19 @@ const client_id = envar('client-id');
 const tmi = require('twitch-js');
 // To Actually run and test the bot: node index.js
 
+// Importing intervals and functions
+let intervals = [
+    'sayHelloToPolyBot',
+    'viewBotCommands',
+    'helpImproveStream'
+];
+
+let intervalFunctions = intervals.map((interval) => {
+    return require(`./intervals/${interval}.js`);
+});
+
+console.log(intervalFunctions[0]);
+
 // New Twitch API
 const querystring = require("querystring"),
   fetch = require("node-fetch");
@@ -73,23 +86,6 @@ client.connect();
 client.on('connected', (address, port) => {
     client.action('epistemicpolymath', 'Hey there, PolymathicalBot is now connected!');
 });
-
-// Set Intervals Messages
-// Tells the Viewers to say !hello to the lonely bot
-const helloCommandInterval = setInterval(() => {
-    client.action('epistemicpolymath', 'Say Hello to polymathicalbot with: !hello');
-}, 600000);
-
-// Set interval for !commands
-const commandsCommandInterval = setTimeout(() => { setInterval(() => {
-    client.action('epistemicpolymath', 'View available bot commands: !commands');
-}, 900000);
-}, 180000);
-
-const serveyCommandInterval = setTimeout(() => { setInterval(() => {
-    client.action('epistemicpolymath', 'Help improve the stream!: !comments ');
-}, 1200000);
-}, 120000);
 
 // When a chat action happens
 client.on('chat', (channel, user, message, self) => {
