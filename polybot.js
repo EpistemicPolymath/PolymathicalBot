@@ -121,7 +121,7 @@ client.on('chat', (channel, user, message, self) => {
       if (typeof command === "function") {
         if (command.name === "uptimeCommand") {
           if (typeof startTime === "undefined") {
-            return;
+            return "startTime is not defined yet";
           }
             let response = command(trimmedMessage, startTime);
             if(response) {
