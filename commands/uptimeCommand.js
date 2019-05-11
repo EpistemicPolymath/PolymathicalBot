@@ -1,9 +1,14 @@
+// Initialize getStartTime function
+const getStartTime = require('../helpers/getStartTime.js');
+
+
 // Uptime command
 const uptimeCommand = (message, startTime) => {
     if (message === "!uptime") {
       // // Check if startTime is defined
       if (typeof startTime === "undefined") {
-        return "startTime not defined yet";
+        getStartTime();
+        return "The stream startTime is not defined yet";
       }
       // Calculate the uptime using fetched variable and current time
       // Current Date and Time
