@@ -11,7 +11,8 @@ const tmi = require('twitch-js');
 let intervals = [
     'sayHelloToPolyBot',
     'viewBotCommands',
-    'helpImproveStream'
+    'helpImproveStream',
+    'socialMedia'
 ];
 
 let intervalFunctions = intervals.map((interval) => {
