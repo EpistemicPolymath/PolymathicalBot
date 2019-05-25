@@ -29,6 +29,7 @@ let commands = [
     'jakDebugCommand',
     'retroCapCardCommand',
     'addMeDiscordCommand',
+    'frankerFaceEmotes',
     'getCommandsCommand',
     'commentsCommand',
     'notesCommand',
