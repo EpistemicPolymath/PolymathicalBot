@@ -12,7 +12,8 @@ let intervals = [
     'sayHelloToPolyBot',
     'viewBotCommands',
     'helpImproveStream',
-    'socialMedia'
+    'socialMedia',
+    'discordCommunity'
 ];
 
 let intervalFunctions = intervals.map((interval) => {
@@ -33,7 +34,11 @@ let commands = [
     'getCommandsCommand',
     'commentsCommand',
     'notesCommand',
-    'uptimeCommand'
+    'uptimeCommand',
+    'twitterCommand',
+    'discordCommand',
+    'ytCommand',
+    'instaCommand'
 ];
 
 let commandFunctions = commands.map((command) => {
