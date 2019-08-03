@@ -23,6 +23,6 @@ A Twitch Chat bot using Twitch-js.
 ## Social Media Commands
 - **!twitter** - gives you my Twitter link! Follow if you want!
 - **!yt** - gives you my Youtube link! Subscribe for new uploads of speedruns, playthroughs, and more!
-- **!insta** - give you the link to my Instagram if you are interested!
+- **!insta** - gives you the link to my Instagram if you are interested!
 
 More commands to come :D
