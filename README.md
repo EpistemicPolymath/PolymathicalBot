@@ -26,3 +26,24 @@ A Twitch Chat bot using Twitch-js.
 - **!insta** - gives you the link to my Instagram if you are interested!
 
 More commands to come :D
+
+## StreamElements Bot Commands
+
+- **!ecommands** - streamelements bot commands list
+- **!emotes ffz/bttv/update** - check out the available emotes and update the list
+- **!followage {viewer}** - check your own or another viewers follow age!
+- **!watchtime {viewer}** - checks your own or another viewers watch time!
+- **!quote add/remove** -	add, remove and show quotes.
+
+### Poly Pointz Commands
+- **!polyz** - Check how many Poly Pointz you have currently and view your rank!
+- **!givepolyz** - Give Poly Pointz to other viewers!
+- **!leaderboard** - Check out the leaderboards for Poly Pointz
+- **!top polyz/alltime/online/offline** - Show the top of the leaderboard.
+
+### Adminz Only
+- **!addpoints** - Give poly pointz to viewers. Use 'all' for all chatters.
+- **!setgame** - 	Update the channels game.
+- **!setpoints** - Set the poly pointz of a viewer.
+- **!settitle** - Update the stream title.
+
