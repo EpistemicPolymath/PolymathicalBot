@@ -27,23 +27,44 @@ A Twitch Chat bot using Twitch-js.
 
 More commands to come :D
 
-## StreamElements Bot Commands
-
-- **!ecommands** - streamelements bot commands list
-- **!emotes ffz/bttv/update** - check out the available emotes and update the list
-- **!followage {viewer}** - check your own or another viewers follow age!
-- **!watchtime {viewer}** - checks your own or another viewers watch time!
-- **!quote add/remove** -	add, remove and show quotes.
+## StreamLab ChatBot Commands (Still work through PolymathicalBot)
 
 ### Poly Pointz Commands
-- **!polyz** - Check how many Poly Pointz you have currently and view your rank!
-- **!givepolyz** - Give Poly Pointz to other viewers!
-- **!leaderboard** - Check out the leaderboards for Poly Pointz
-- **!top polyz/alltime/online/offline** - Show the top of the leaderboard.
+- **!polyz** - check how many poly pointz you have currently and how many hours you have supported the stream!
+- **!givepolyz** - give poly pointz to other viewers!
+- **!gamble** - gamble polyz pointz, but be careful :P
+- **!top** - shows the top 5 polyz holders.
+- **!tophours** - shows the top 5 supporters by who has viewed the most hours.
 
-### Adminz Only
-- **!addpoints** - Give poly pointz to viewers. Use 'all' for all chatters.
-- **!setgame** - 	Update the channels game.
-- **!setpoints** - Set the poly pointz of a viewer.
-- **!settitle** - Update the stream title.
+### Custom Commands
+- **!wb** - Mitsuru gives out a nice "Welcome Back!" to those who say brb and actually follow through :).
+- **!title** - view the current stream title. 
+- **!time** - check the channel's time.
+- **!created** - check when my account was created :D.
+- **!currentgame** - check what game I am currently playing!
+- **!date** - check the current date for the channel.
+- **!ffz** - check all the available FFZ emotes for the channel (Feel free to recommend some!)
+- **!followdate** - get the date when you or any other user followed the channel.
+- **!followers** - check how many people are following the channel!
+- **!subemotes** - view the available sub emote codes! 
 
+## Modz Commands
+- **multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
+
+### Built In Commands - Only Admins / Editors can use these
+- **!command add (command) (permlvl) (response)** - Example: !command add !example +a This is an example command everyone can use
+- **!command edit (command) (permlvl) and/or (response)** - Example: !command edit !example +r Now only for regulars
+- **!command remove (command)** - Example: !command remove !example
+- **!command count (command) (num)** - Example: !command count !counter 10
+- **!command usage (command)** - Example: !command usage !counter A
+- **!enable (command) (true/false)** - Example: !enable !counter false
+- **!command Cooldown (command) (minutes)** - Example: !Command Cooldown !counter 5
+- **!command UserCooldown (command) (minutes)** - Example: !Command UserCooldown !counter 3
+
+#### Dashboard Commands - Only Admins / Editors can use these
+- **!status (message)** - Example: !status Doing some Jak II Any% Practice!
+- **!game (message)** Example: !game Jak II
+- **!starthost** - start auto-hosting
+- **!stophost** - stop auto-hosting
+
+More commands to come :D
