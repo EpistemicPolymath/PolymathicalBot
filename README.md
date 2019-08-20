@@ -25,8 +25,6 @@ A Twitch Chat bot using Twitch-js.
 - **!yt** - gives you my Youtube link! Subscribe for new uploads of speedruns, playthroughs, and more!
 - **!insta** - gives you the link to my Instagram if you are interested!
 
-More commands to come :D
-
 ## StreamLab ChatBot Commands (Still work through PolymathicalBot)
 
 ### Poly Pointz Commands
