@@ -13,7 +13,8 @@ let intervals = [
     'viewBotCommands',
     'helpImproveStream',
     'socialMedia',
-    'discordCommunity'
+    'discordCommunity',
+    'gamblePolyPointz'
 ];
 
 let intervalFunctions = intervals.map((interval) => {
