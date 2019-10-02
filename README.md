@@ -29,8 +29,8 @@ A Twitch Chat bot using Twitch-js.
 
 ### Poly Pointz Commands
 - **!polyz** - check how many poly pointz you have currently and how many hours you have supported the stream!
-- **!givepolyz** - give poly pointz to other viewers!
-- **!gamble** - gamble polyz pointz, but be careful :P
+- **!givepolyz username amount** - give poly pointz to other viewers!
+- **!gamble amount** - gamble polyz, but be careful :P
 - **!top** - shows the top 5 polyz holders.
 - **!tophours** - shows the top 5 supporters by who has viewed the most hours.
 
