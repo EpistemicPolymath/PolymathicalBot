@@ -44,7 +44,9 @@ A Twitch Chat bot using Twitch-js.
 - **!ffz** - check all the available FFZ emotes for the channel (Feel free to recommend some!)
 - **!followdate** - get the date when you or any other user followed the channel.
 - **!followers** - check how many people are following the channel!
-- **!subemotes** - view the available sub emote codes! 
+- **!subemotes** - view the available sub emote codes!
+- **!mcserver / !mcdiscord** - gives you the links to the Minecraft discord server for the stream! Anyone can join the discord, but subs can play on the server for free and non-subs can join through Patreon. 
+- **!patreon** - gives you the link to my Patreon. For now it is just for access to the Minecraft server as a non-sub. I hope to add more in the future.
 
 ## Modz Commands
 - **multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
