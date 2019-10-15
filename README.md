@@ -67,4 +67,13 @@ A Twitch Chat bot using Twitch-js.
 - **!starthost** - start auto-hosting
 - **!stophost** - stop auto-hosting
 
+## Nightbot Commands 
+These are still commands that can be used, but they are technically not done through PolymathicalBot. I will add them here for clarity purposes.
+
+### Dashboard Commands
+- **!title** - Shows the stream title, and allows moderators to modify it
+- **!game** - Shows the stream's current game, and allows moderators to modify it
+- **!marker** - Create a stream marker in your Twitch channel to easily return to later **Modz + Broadcaster Only**
+- **!winner** - Chooses a random user in chat as a winner **Modz + Broadcaster Only**
+
 More commands to come :D
