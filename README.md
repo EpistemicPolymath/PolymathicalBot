@@ -35,7 +35,7 @@ A Twitch Chat bot using Twitch-js.
 - **!tophours** - shows the top 5 supporters by who has viewed the most hours.
 
 ### Custom Commands
-- **!wb** - Mitsuru gives out a nice "Welcome Back!" to those who say brb and actually follow through :).
+
 - **!title** - view the current stream title. 
 - **!time** - check the channel's time.
 - **!created** - check when my account was created :D.
@@ -47,6 +47,13 @@ A Twitch Chat bot using Twitch-js.
 - **!subemotes** - view the available sub emote codes!
 - **!mcserver / !mcdiscord** - gives you the links to the Minecraft discord server for the stream! Anyone can join the discord, but subs can play on the server for free and non-subs can join through Patreon. 
 - **!patreon** - gives you the link to my Patreon. For now it is just for access to the Minecraft server as a non-sub. I hope to add more in the future.
+
+#### Voice Commands
+
+- **!wb** - Mitsuru gives out a nice "Welcome Back!" to those who say brb and actually follow through :).
+- **!kello** - Ken Amada says hello!
+- **!fr** - Ryuji Sakamoto says "for real!"
+- **soradies** - Sora Dies, unfortunately.
 
 ## Modz Commands
 - **multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
