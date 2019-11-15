@@ -53,7 +53,7 @@ A Twitch Chat bot using Twitch-js.
 - **!wb** - Mitsuru gives out a nice "Welcome Back!" to those who say brb and actually follow through :).
 - **!kello** - Ken Amada says hello!
 - **!fr** - Ryuji Sakamoto says "for real!"
-- **soradies** - Sora Dies, unfortunately.
+- **!soradies** - Sora Dies, unfortunately.
 
 ## Modz Commands
 - **multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
