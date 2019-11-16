@@ -56,7 +56,8 @@ A Twitch Chat bot using Twitch-js.
 - **!soradies** - Sora Dies, unfortunately.
 
 ## Modz Commands
-- **multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
+- **!multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
+- **!kadgar** - create a multiple twitch screen using kadgar! Usage: !kadgar user1/user2
 
 ### Built In Commands - Only Admins / Editors can use these
 - **!command add (command) (permlvl) (response)** - Example: !command add !example +a This is an example command everyone can use
