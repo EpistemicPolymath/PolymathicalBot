@@ -29,7 +29,7 @@ A Twitch Chat bot using Twitch-js.
 
 ### Poly Pointz Commands
 - **!polyz** - check how many poly pointz you have currently and how many hours you have supported the stream!
-- **!givepolyz username amount** - give poly pointz to other viewers!
+- **!give username amount** - give poly pointz to other viewers!
 - **!gamble amount** - gamble polyz, but be careful :P
 - **!top** - shows the top 5 polyz holders.
 - **!tophours** - shows the top 5 supporters by who has viewed the most hours.
@@ -50,6 +50,7 @@ A Twitch Chat bot using Twitch-js.
 
 #### Voice Commands
 
+- **!gl** - Keira says "Good Luck" + some Fire Canyon Music :P
 - **!wb** - Mitsuru gives out a nice "Welcome Back!" to those who say brb and actually follow through :).
 - **!kello** - Ken Amada says hello!
 - **!fr** - Ryuji Sakamoto says "for real!"
