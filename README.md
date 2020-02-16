@@ -47,6 +47,7 @@ A Twitch Chat bot using Twitch-js.
 
 #### Speedrunning Commands
 
+- **!jakspeedruns** - gives a link to the Jak Speedruns website.
 - **!jak1boards** - gives you the link to Jak 1 boards on speedrun.com.
 - **!jakdiscord** - shares the Discord invite link for the Jak Speedrunning Discord server.
 - **!jak1vidz** - a link to my Jak 1 Speedrunning playlist filled with strats, tutorials, and other helpful videos.
