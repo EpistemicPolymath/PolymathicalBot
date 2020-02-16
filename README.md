@@ -8,14 +8,12 @@ A Twitch Chat bot using Twitch-js.
 - **!uptime** - tells you how long I have been live!
 - **!github** - gives you the GitHub link for the bot!
 - **!polygithub** - gives a link to my personal GitHub. Not much here yet :P.
-- **!jak1boards** - gives you the link to Jak 1 boards on speedrun.com.
-- **!jakdiscord** - shares the Discord invite link for the Jak Speedruns Discord server.
 - **!addmediscord** - allows users to copy and paste my username to easily add me on Discord.
 - **!discord** - gives you the link to my Discord community server! I would love to have you there!
 - **!frankerfaceemotes** - gives a link to my channel's available FrankerFaceZ Emotes. 
-- **!jakdebug** - gives a link to more information about Debug Mode in the Jak Games.
 - **!retrocapcard** - gives users the link to the Gv-Usb2 capture card on Amazon. 
-- **!hundoboards** - gives you the link to Jak 100% boards on speedrun.com.
+- **!hdcapcard** - gives users the link to the StarTech USB3HDCAP on Amazon.
+- **!inputviewer** - gives the link to the Munia input viewer website. 
 - **!note** - remind me of something or leave me a note that is stored on a .csv file.
 - **!comments** - gives you a link to a Google Form so you can privately submit comments / recommendations for the stream.
 - **!commands** - gives you a link to the GitHub ReadMe for the Bot with a list of the available commands. 
@@ -45,8 +43,27 @@ A Twitch Chat bot using Twitch-js.
 - **!followdate** - get the date when you or any other user followed the channel.
 - **!followers** - check how many people are following the channel!
 - **!subemotes** - view the available sub emote codes!
+
+
+#### Speedrunning Commands
+
+- **!jak1boards** - gives you the link to Jak 1 boards on speedrun.com.
+- **!jakdiscord** - shares the Discord invite link for the Jak Speedrunning Discord server.
+- **!jak1vidz** - a link to my Jak 1 Speedrunning playlist filled with strats, tutorials, and other helpful videos.
+- **!jak2-3vidz** - a link to my Jak 2 and 3 Speedrunning playlist filled with strats, tutorials, and other helpful videos.
+- **!jakdebug** - gives a link to more information about Debug Mode or Cheat Mode in the Jak Games.
+- **!hundoboards** - gives you the link to Jak 100% boards on speedrun.com.
+- **!hszepp** - In Jak 1 there is a Zeppelin cycle in Misty Island that can be a bit confusing to learn. Headstrong1290 has a guide for it on a Twitch Vod.
+- **!slydiscord** - Links you to the Sly Speedrunning Discord if you are interested.
+
+
+#### Other Games / Services Commands
+
+- **!naoto** - Do not know who Naoto Shirogane is? Use this command. 
 - **!mcserver / !mcdiscord** - gives you the links to the Minecraft discord server for the stream! Anyone can join the discord, but subs can play on the server for free and non-subs can join through Patreon. 
-- **!patreon** - gives you the link to my Patreon. For now it is just for access to the Minecraft server as a non-sub. I hope to add more in the future.
+- **!patreon** - gives you the link to my Patreon. For now it is just for access to the Minecraft server as a non-sub + to support the server growth overall. I hope to add more in the future, as I create more content.
+- **!roblox** - links you to the roblox website.
+- **!robloxprofile** - Will take you to my profile on Roblox if you wish to join me in some gaming :P. 
 
 #### Voice Commands
 
