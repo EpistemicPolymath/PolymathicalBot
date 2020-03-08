@@ -74,6 +74,7 @@ A Twitch Chat bot using Twitch-js.
 - **!fr** - Ryuji Sakamoto says "for real!"
 - **!soradies** - Sora Dies, unfortunately.
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
+- **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go.
 
 ## Modz Commands
 - **!multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
