@@ -17,6 +17,8 @@ A Twitch Chat bot using Twitch-js.
 - **!note** - remind me of something or leave me a note that is stored on a .csv file.
 - **!comments** - gives you a link to a Google Form so you can privately submit comments / recommendations for the stream.
 - **!commands** - gives you a link to the GitHub ReadMe for the Bot with a list of the available commands. 
+- **!faq** - gives you a link to a list of questions and answers that are difficult for me to explain while streaming/speedrunning.
+- **!nameexplained** - gives you a link to an explanation for my name (Just if you're curious)
 
 ## Social Media Commands
 - **!twitter** - gives you my Twitter link! Follow if you want!
