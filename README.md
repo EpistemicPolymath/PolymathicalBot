@@ -55,6 +55,7 @@ A Twitch Chat bot using Twitch-js.
 - **!jak1vidz** - a link to my Jak 1 Speedrunning playlist filled with strats, tutorials, and other helpful videos.
 - **!jak2-3vidz** - a link to my Jak 2 and 3 Speedrunning playlist filled with strats, tutorials, and other helpful videos.
 - **!jakdebug** - gives a link to more information about Debug Mode or Cheat Mode in the Jak Games.
+- **!jakphotos** - gives a link to some helpful Jak speedrunning images.
 - **!hundoboards** - gives you the link to Jak 100% boards on speedrun.com.
 - **!hszepp** - In Jak 1 there is a Zeppelin cycle in Misty Island that can be a bit confusing to learn. Headstrong1290 has a guide for it on a Twitch Vod.
 - **!slydiscord** - Links you to the Sly Speedrunning Discord if you are interested.
