@@ -8,8 +8,9 @@ const tmi = require('twitch-js');
 // To Actually run and test the bot: node index.js
 
 // Importing intervals and functions
+// 'sayHelloToPolyBot',
 let intervals = [
-    'sayHelloToPolyBot',
+    'sayHelloHiThink',
     'viewBotCommands',
     'helpImproveStream',
     'socialMedia',
