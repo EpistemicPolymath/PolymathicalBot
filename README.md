@@ -25,6 +25,10 @@ A Twitch Chat bot using Twitch-js.
 - **!yt** - gives you my Youtube link! Subscribe for new uploads of speedruns, playthroughs, and more!
 - **!insta** - gives you the link to my Instagram if you are interested!
 
+## Emote Commonds
+- **!hi** - spams the episteHI emote! This costs 100 polyz so do not abuse :)
+- **!think** - spams the episteThink emote! This costs 100 polyz so do not abuse :)
+
 ## StreamLab ChatBot Commands (Still work through PolymathicalBot)
 
 ### Poly Pointz Commands
