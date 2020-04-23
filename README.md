@@ -19,6 +19,7 @@ A Twitch Chat bot using Twitch-js.
 - **!commands** - gives you a link to the GitHub ReadMe for the Bot with a list of the available commands. 
 - **!faq** - gives you a link to a list of questions and answers that are difficult for me to explain while streaming/speedrunning.
 - **!nameexplained** - gives you a link to an explanation for my name (Just if you're curious)
+- **!pc** - gives you a link to my budget streaming/work PC!
 
 ## Social Media Commands
 - **!twitter** - gives you my Twitter link! Follow if you want!
