@@ -2,6 +2,7 @@ const getStartTime = () => {
   var envar = require("envar");
   envar.import('env.json');
   const client_id = envar('client-id');
+  const accessToken = envar('access-token');
 
   // New Twitch API
   const querystring = require("querystring"),
@@ -21,9 +22,11 @@ const getStartTime = () => {
   // Adds the client id as a header for the fetch
   const fetchArgs = {
       headers: {
-          "Client-ID": client_id
+          "Client-ID": client_id,
+          "Authorization": "Bearer " + accessToken
       }
   };
+
 
   // Final fetch API call
   fetch(qURL, fetchArgs)
