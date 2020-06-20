@@ -15,7 +15,8 @@ let intervals = [
     'helpImproveStream',
     'socialMedia',
     'discordCommunity',
-    'gamblePolyPointz'
+    'gamblePolyPointz',
+    'minecraftServerInterval'
 ];
 
 let intervalFunctions = intervals.map((interval) => {
