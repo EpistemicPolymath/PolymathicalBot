@@ -18,8 +18,9 @@ A Twitch Chat bot using Twitch-js.
 - **!comments** - gives you a link to a Google Form so you can privately submit comments / recommendations for the stream.
 - **!commands** - gives you a link to the GitHub ReadMe for the Bot with a list of the available commands. 
 - **!faq** - gives you a link to a list of questions and answers that are difficult for me to explain while streaming/speedrunning.
-- **!nameexplained** - gives you a link to an explanation for my name (Just if you're curious)
+- **!myname** - gives you a link to an explanation for my name (Just if you're curious)
 - **!pc** - gives you a link to my budget streaming/work PC!
+- **!thankyou** - links you to a PasteBin explaining how grateful I am for your support and how much it has changed my life!
 
 ## Social Media Commands
 - **!twitter** - gives you my Twitter link! Follow if you want!
@@ -29,6 +30,7 @@ A Twitch Chat bot using Twitch-js.
 ## Emote Commonds
 - **!hi** - spams the episteHI emote! This costs 100 polyz so do not abuse :)
 - **!think** - spams the episteThink emote! This costs 100 polyz so do not abuse :)
+- **!hype** - spams the episteHype emote! This costs 100 polyz so do not abuse :)
 
 ## StreamLab ChatBot Commands (Still work through PolymathicalBot)
 
@@ -57,6 +59,7 @@ A Twitch Chat bot using Twitch-js.
 - **!jakspeedruns** - gives a link to the Jak Speedruns website.
 - **!jak1boards** - gives you the link to Jak 1 boards on speedrun.com.
 - **!jakdiscord** - shares the Discord invite link for the Jak Speedrunning Discord server.
+- **!jakraces** - shares the Jak Racing Discord link for the Jak Speedrunning Community
 - **!jak1vidz** - a link to my Jak 1 Speedrunning playlist filled with strats, tutorials, and other helpful videos.
 - **!jak2-3vidz** - a link to my Jak 2 and 3 Speedrunning playlist filled with strats, tutorials, and other helpful videos.
 - **!jakdebug** - gives a link to more information about Debug Mode or Cheat Mode in the Jak Games.
@@ -69,26 +72,30 @@ A Twitch Chat bot using Twitch-js.
 #### Other Games / Services Commands
 
 - **!naoto** - Do not know who Naoto Shirogane is? Use this command. 
-- **!mcserver / !mcdiscord** - gives you the links to the Minecraft discord server for the stream! Anyone can join the discord, but subs can play on the server for free and non-subs can join through Patreon. 
-- **!patreon** - gives you the link to my Patreon. For now it is just for access to the Minecraft server as a non-sub + to support the server growth overall. I hope to add more in the future, as I create more content.
+- **!respitemc** - gives more information about the Community Minecraft Server, Respite Minecraft!
+- **!mcserver / !mcdiscord** - gives you the links to the server url itself and the Minecraft Discord respectively!
+- **!patreon** - gives you the link to my Patreon. For now it is just for access to the Supporter Role in the Respite Server. I hope to add more in the future, as I create more content.
+- **!mineplex** - shares the MinePlex server url so that you can play with us on the server if we go for a Minecraft gaming session!
 - **!roblox** - links you to the roblox website.
 - **!robloxprofile** - Will take you to my profile on Roblox if you wish to join me in some gaming :P. 
 
 #### Voice Commands
 
 - **!gl** - Keira says "Good Luck" + some Fire Canyon Music :P
+- **!focus** - tell me to focus on my run by getting Roxas to inspire me by saying, "Leave it to me!" It costs 500 polyz to use :)
 - **!wb** - Mitsuru gives out a nice "Welcome Back!" to those who say brb and actually follow through :).
 - **!kello** - Ken Amada says hello!
 - **!fr** - Ryuji Sakamoto says "for real!"
 - **!soradies** - Sora Dies, unfortunately.
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
-- **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go.
+- **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. It costs 500 polyz to use :)
 
 ## Modz Commands
 - **!multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
 - **!kadgar** - create a multiple twitch screen using kadgar! Usage: !kadgar user1/user2
 
 ### Built In Commands - Only Admins / Editors can use these
+- **!builtincommands** - links to the built in commands incase people forget aka me :P
 - **!command add (command) (permlvl) (response)** - Example: !command add !example +a This is an example command everyone can use
 - **!command edit (command) (permlvl) and/or (response)** - Example: !command edit !example +r Now only for regulars
 - **!command remove (command)** - Example: !command remove !example
