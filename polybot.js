@@ -16,7 +16,8 @@ let intervals = [
     'socialMedia',
     'discordCommunity',
     'gamblePolyPointz',
-    'minecraftServerInterval'
+    'minecraftServerInterval',
+    'subGoalMessage'
 ];
 
 let intervalFunctions = intervals.map((interval) => {
