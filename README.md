@@ -42,6 +42,19 @@ A Twitch Chat bot using Twitch-js.
 - **!top** - shows the top 5 polyz holders.
 - **!tophours** - shows the top 5 supporters by who has viewed the most hours.
 
+### Chat Minigames
+- **!gamble #**: take a risk and gamble your polyz to have some fun in chat. 
+- **!dice**: It costs 10 polyz to start. You role 3 dice and depending on the total you role, you can multiply your prize!
+
+    Here are the *multipliers*:
+
+      Role a total: 11-14 (2x Multiplier)
+      Role a total: 15 (3x Multiplier)
+      Role a total: 16 (4x Multiplier)
+      Role a total: 17 (5x Multiplier)
+      Role a total: 18 (100x Multiplier)
+
+
 ### Custom Commands
 
 - **!title** - view the current stream title. 
