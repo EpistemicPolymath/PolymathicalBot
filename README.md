@@ -28,9 +28,10 @@ A Twitch Chat bot using Twitch-js.
 - **!insta** - gives you the link to my Instagram if you are interested!
 
 ## Emote Commonds
-- **!hi** - spams the episteHI emote! This costs 100 polyz so do not abuse :)
-- **!think** - spams the episteThink emote! This costs 100 polyz so do not abuse :)
-- **!hype** - spams the episteHype emote! This costs 100 polyz so do not abuse :)
+- **!hi** - spams the episteHI emote! This costs 100 polyz so do not overuse :)
+- **!think** - spams the episteThink emote! This costs 100 polyz so do not overuse :)
+- **!hype** - spams the episteHype emote! This costs 100 polyz so do not overuse :)
+- **!bonk** - spams the episteBonk emote! this costs 100 polyz so do not overuse :)
 
 ## StreamLab ChatBot Commands (Still work through PolymathicalBot)
 
@@ -90,7 +91,7 @@ A Twitch Chat bot using Twitch-js.
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
 - **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. It costs 500 polyz to use :)
 - **!hiii** - a completely audio fricked hi from the movie Birdemic :P
-- **!salt** - Whip gets a little salty...
+- **!salt** - Whip gets a little salty... It costs 500 polyz to use :)
 
 ## Modz Commands
 - **!multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
