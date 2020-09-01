@@ -23,11 +23,11 @@ A Twitch Chat bot using Twitch-js.
 - **!thankyou** - links you to a PasteBin explaining how grateful I am for your support and how much it has changed my life!
 
 ## Mental Health and Disability Commands
-**!autistic** - links you to an article about the autism spectrum so that you can build a better understanding.
-**!adhd** - links you to a ADHD (Attention-deficit/hyperactivity disorder) resource so you can learn more about it.
-**!dyscal** - links you to a symptom breakdown and overview of Dyscalculia.
-**!lymedisease** - links you to the CDC page for Lyme disease so you can learn more about it. 
-**!mhresources** - links you to a list of mental health resources.
+- **!autistic** - links you to an article about the autism spectrum so that you can build a better understanding.
+- **!adhd** - links you to a ADHD (Attention-deficit/hyperactivity disorder) resource so you can learn more about it.
+- **!dyscal** - links you to a symptom breakdown and overview of Dyscalculia.
+- **!lymedisease** - links you to the CDC page for Lyme disease so you can learn more about it. 
+- **!mhresources** - links you to a list of mental health resources.
 
 ## Social Media Commands
 - **!twitter** - gives you my Twitter link! Follow if you want!
