@@ -22,12 +22,19 @@ A Twitch Chat bot using Twitch-js.
 - **!pc** - gives you a link to my budget streaming/work PC!
 - **!thankyou** - links you to a PasteBin explaining how grateful I am for your support and how much it has changed my life!
 
+## Mental Health and Disability Commands
+**!autistic** - links you to an article about the autism spectrum so that you can build a better understanding.
+**!adhd** - links you to a ADHD (Attention-deficit/hyperactivity disorder) resource so you can learn more about it.
+**!dyscal** - links you to a symptom breakdown and overview of Dyscalculia.
+**!lymedisease** - links you to the CDC page for Lyme disease so you can learn more about it. 
+**!mhresources** - links you to a list of mental health resources.
+
 ## Social Media Commands
 - **!twitter** - gives you my Twitter link! Follow if you want!
 - **!yt** - gives you my Youtube link! Subscribe for new uploads of speedruns, playthroughs, and more!
 - **!insta** - gives you the link to my Instagram if you are interested!
 
-## Emote Commonds
+## Emote Commands
 - **!hi** - spams the episteHI emote! This costs 100 polyz so do not overuse :)
 - **!think** - spams the episteThink emote! This costs 100 polyz so do not overuse :)
 - **!hype** - spams the episteHype emote! This costs 100 polyz so do not overuse :)
