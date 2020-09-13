@@ -111,7 +111,7 @@ A Twitch Chat bot using Twitch-js.
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
 - **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. It costs 500 polyz to use :)
 - **!hiii** - a completely audio fricked hi from the movie Birdemic :P
-- **!salt** - Whip gets a little salty... It costs 500 polyz to use :)
+- **!salt** - Whip gets a little salty... It costs 150 polyz to use :)
 
 ## Modz Commands
 - **!multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
