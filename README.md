@@ -4,6 +4,7 @@ A Twitch Chat bot using Twitch-js.
 
 # A General List of Commands
 
+- **!schedule** - shares a condensed version of my stream schedule. 
 - **!hello** - say hello to the bot!
 - **!uptime** - tells you how long I have been live!
 - **!github** - gives you the GitHub link for the bot!
