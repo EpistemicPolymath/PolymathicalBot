@@ -109,6 +109,7 @@ A Twitch Chat bot using Twitch-js.
 - **!kello** - Ken Amada says hello!
 - **!fr** - Ryuji Sakamoto says "for real!"
 - **!soradies** - Sora Dies, unfortunately.
+- **!jakdies** - Jak dies, unfortunately. With a twist :)
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
 - **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. It costs 500 polyz to use :)
 - **!hiii** - a completely audio fricked hi from the movie Birdemic :P
