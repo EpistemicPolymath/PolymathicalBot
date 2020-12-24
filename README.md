@@ -71,10 +71,18 @@ A Twitch Chat bot using Twitch-js.
 - **!currentgame** - check what game I am currently playing!
 - **!date** - check the current date for the channel.
 - **!ffz** - check all the available FFZ emotes for the channel (Feel free to recommend some!)
+- **!bttv** - check out all the available BTTV emotes for the channel!
 - **!followdate** - get the date when you or any other user followed the channel.
 - **!followers** - check how many people are following the channel!
 - **!subemotes** - view the available sub emote codes!
+- **!domath** - put some basic math equation for an answer :)
 
+
+### Custom Counters
+**!burps** - check the amount of times I have burped this stream.
+**!burps+** - add to the burp counter [Only mods can do this]
+**!burps-** - subtract from the burp counter [Only mods can do this]
+**!burpreset** - resets the counter to 0 again [Only mods can do this]
 
 #### Speedrunning Commands
 
