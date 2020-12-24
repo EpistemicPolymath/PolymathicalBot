@@ -79,10 +79,10 @@ A Twitch Chat bot using Twitch-js.
 
 
 ### Custom Counters
-**!burps** - check the amount of times I have burped this stream.
-**!burps+** - add to the burp counter [Only mods can do this]
-**!burps-** - subtract from the burp counter [Only mods can do this]
-**!burpreset** - resets the counter to 0 again [Only mods can do this]
+- **!burps** - check the amount of times I have burped this stream.
+- **!burps+** - add to the burp counter [Only mods can do this]
+- **!burps-** - subtract from the burp counter [Only mods can do this]
+- **!burpreset** - resets the counter to 0 again [Only mods can do this]
 
 #### Speedrunning Commands
 
