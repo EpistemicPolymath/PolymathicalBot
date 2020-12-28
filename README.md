@@ -77,6 +77,9 @@ A Twitch Chat bot using Twitch-js.
 - **!subemotes** - view the available sub emote codes!
 - **!domath** - put some basic math equation for an answer :)
 
+### Hobbie Commands
+- **!guitarsongs** - get a list of songs I am currently open to playing/singing on stream.
+- **!randguitarsong** - if you are having trouble picking a song for me to sing/play after redeeming it with polyz, you can use this command and it will decide for you :).
 
 ### Custom Counters
 - **!burps** - check the amount of times I have burped this stream.
