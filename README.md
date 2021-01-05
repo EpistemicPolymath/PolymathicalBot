@@ -4,6 +4,7 @@ A Twitch Chat bot using Twitch-js.
 
 # A General List of Commands
 
+- **!schedule** - shares a condensed version of my stream schedule. 
 - **!hello** - say hello to the bot!
 - **!uptime** - tells you how long I have been live!
 - **!github** - gives you the GitHub link for the bot!
@@ -70,10 +71,21 @@ A Twitch Chat bot using Twitch-js.
 - **!currentgame** - check what game I am currently playing!
 - **!date** - check the current date for the channel.
 - **!ffz** - check all the available FFZ emotes for the channel (Feel free to recommend some!)
+- **!bttv** - check out all the available BTTV emotes for the channel!
 - **!followdate** - get the date when you or any other user followed the channel.
 - **!followers** - check how many people are following the channel!
 - **!subemotes** - view the available sub emote codes!
+- **!domath** - put some basic math equation for an answer :)
 
+### Hobbie Commands
+- **!guitarsongs** - get a list of songs I am currently open to playing/singing on stream.
+- **!randguitarsong** - if you are having trouble picking a song for me to sing/play after redeeming it with polyz, you can use this command and it will decide for you :).
+
+### Custom Counters
+- **!burps** - check the amount of times I have burped this stream.
+- **!burps+** - add to the burp counter [Only mods can do this]
+- **!burps-** - subtract from the burp counter [Only mods can do this]
+- **!burpreset** - resets the counter to 0 again [Only mods can do this]
 
 #### Speedrunning Commands
 
@@ -108,10 +120,11 @@ A Twitch Chat bot using Twitch-js.
 - **!kello** - Ken Amada says hello!
 - **!fr** - Ryuji Sakamoto says "for real!"
 - **!soradies** - Sora Dies, unfortunately.
+- **!jakdies** - Jak dies, unfortunately. With a twist :)
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
 - **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. It costs 500 polyz to use :)
 - **!hiii** - a completely audio fricked hi from the movie Birdemic :P
-- **!salt** - Whip gets a little salty... It costs 500 polyz to use :)
+- **!salt** - Whip gets a little salty... It costs 150 polyz to use :)
 
 ## Modz Commands
 - **!multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
