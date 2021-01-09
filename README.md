@@ -36,7 +36,7 @@ A Twitch Chat bot using Twitch-js.
 - **!insta** - gives you the link to my Instagram if you are interested!
 
 ## Emote Commands
-- **!hi** - spams the episteHI emote! This costs 100 polyz so do not overuse :)
+- **!wave** - spams the episteHI emote! This costs 100 polyz so do not overuse :)
 - **!think** - spams the episteThink emote! This costs 100 polyz so do not overuse :)
 - **!hype** - spams the episteHype emote! This costs 100 polyz so do not overuse :)
 - **!bonk** - spams the episteBonk emote! this costs 100 polyz so do not overuse :)
@@ -76,6 +76,7 @@ A Twitch Chat bot using Twitch-js.
 - **!followers** - check how many people are following the channel!
 - **!subemotes** - view the available sub emote codes!
 - **!domath** - put some basic math equation for an answer :)
+- **!streamable** - sends you a link to Streamable, a great service for easily sharing recorded clips. 
 
 ### Hobbie Commands
 - **!guitarsongs** - get a list of songs I am currently open to playing/singing on stream.
