@@ -83,7 +83,7 @@ A Twitch Chat bot using Twitch-js.
 - **!randguitarsong** - if you are having trouble picking a song for me to sing/play after redeeming it with polyz, you can use this command and it will decide for you :).
 
 ### Custom Counters
-- **!burps** - check the amount of times I have burped this stream.
+- **!burps** - check the amount of times I have burped this year (Resets every year). 
 - **!burps+** - add to the burp counter [Only mods can do this]
 - **!burps-** - subtract from the burp counter [Only mods can do this]
 - **!burpreset** - resets the counter to 0 again [Only mods can do this]
