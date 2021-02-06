@@ -86,7 +86,13 @@ A Twitch Chat bot using Twitch-js.
 - **!burps** - check the amount of times I have burped this year (Resets every year). 
 - **!burps+** - add to the burp counter [Only mods can do this]
 - **!burps-** - subtract from the burp counter [Only mods can do this]
-- **!burpreset** - resets the counter to 0 again [Only mods can do this]
+- **!burpsreset** - resets the counter to 0 again [Only mods can do this]
+
+- **!fails** - check the amount of times I have failed whatever it is I am doing to keep track of. 
+- **!fails+** - add to the fail counter [Only mods can do this]
+- **!fails-** - subtract from the fail counter [Only mods can do this]
+- **!failsreset** - resets the fail counter to 0 again [Only mods can do this]
+
 
 #### Speedrunning Commands
 
