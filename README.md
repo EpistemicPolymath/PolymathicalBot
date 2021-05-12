@@ -22,6 +22,7 @@ A Twitch Chat bot using Twitch-js.
 - **!myname** - gives you a link to an explanation for my name (Just if you're curious)
 - **!pc** - gives you a link to my budget streaming/work PC!
 - **!thankyou** - links you to a PasteBin explaining how grateful I am for your support and how much it has changed my life!
+- **!alt** - links you to my alt Twitch Account, if you'd like to follow it. I will use it for Tournies/Events
 
 ## Mental Health and Disability Commands
 - **!autistic** - links you to an article about the autism spectrum so that you can build a better understanding.
@@ -48,6 +49,7 @@ A Twitch Chat bot using Twitch-js.
 - **!give username amount** - give poly pointz to other viewers!
 - **!gamble amount** - gamble polyz, but be careful :P
 - **!top** - shows the top 5 polyz holders.
+- **!top10** - shows the top 10 polyz holders.
 - **!tophours** - shows the top 5 supporters by who has viewed the most hours.
 
 ### Chat Minigames
@@ -77,6 +79,14 @@ A Twitch Chat bot using Twitch-js.
 - **!subemotes** - view the available sub emote codes!
 - **!domath** - put some basic math equation for an answer :)
 - **!streamable** - sends you a link to Streamable, a great service for easily sharing recorded clips. 
+
+### Meme Chat Commands
+Give some of these a try :)
+- **!eyesucking** 
+- **!iced**
+- **!whip**
+- **!zed**
+- **!doom**
 
 ### Hobbie Commands
 - **!guitarsongs** - get a list of songs I am currently open to playing/singing on stream.
@@ -133,7 +143,7 @@ A Twitch Chat bot using Twitch-js.
 - **!soradies** - Sora Dies, unfortunately.
 - **!jakdies** - Jak dies, unfortunately. With a twist :)
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
-- **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. It costs 500 polyz to use :)
+- **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. 
 - **!hiii** - a completely audio fricked hi from the movie Birdemic :P
 - **!salt** - Whip gets a little salty... It costs 150 polyz to use :)
 
