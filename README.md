@@ -143,6 +143,9 @@ Give some of these a try :)
 - **!soradies** - Sora Dies, unfortunately.
 - **!jakdies** - Jak dies, unfortunately. With a twist :)
 - **!yoshi** - Yoshi says it's name. Because, Yoshi.
+- **!mlem** - Yoshi's tongue noise :P
+- **!ninini** - Mountain Pass Lurker Troopers say hello!
+- **!yadidit** - Fisherman says, "Ya Did it!"
 - **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. 
 - **!hiii** - a completely audio fricked hi from the movie Birdemic :P
 - **!salt** - Whip gets a little salty... It costs 150 polyz to use :)
