@@ -149,6 +149,8 @@ Give some of these a try :)
 - **!reset** - Sora reminds me that it is over... Use this to get me to reset runs. I have difficulty letting go. 
 - **!hiii** - a completely audio fricked hi from the movie Birdemic :P
 - **!salt** - Whip gets a little salty... It costs 150 polyz to use :)
+- **!whathappa** - Poly is confused LOL.
+- **!fools** - Gol says "Fools"
 
 ## Modz Commands
 - **!multitwitch** - create a multitwitch for potential races. Usage: !multitwitch user1/user2/user3
