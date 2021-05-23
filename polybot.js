@@ -12,11 +12,9 @@ const tmi = require('twitch-js');
 let intervals = [
     'sayHelloHiThink',
     'viewBotCommands',
-    'helpImproveStream',
     'socialMedia',
     'discordCommunity',
     'gamblePolyPointz',
-    'minecraftServerInterval',
     'subGoalMessage'
 ];
 
