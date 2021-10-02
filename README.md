@@ -40,7 +40,8 @@ A Twitch Chat bot using Twitch-js.
 - **!wave** - spams the episteHI emote! This costs 100 polyz so do not overuse :)
 - **!think** - spams the episteThink emote! This costs 100 polyz so do not overuse :)
 - **!hype** - spams the episteHype emote! This costs 100 polyz so do not overuse :)
-- **!bonk** - spams the episteBonk emote! this costs 100 polyz so do not overuse :)
+- **!bonk** - spams the episteBonk emote! This costs 100 polyz so do not overuse :)
+- **!blush** - spams the episteBlush emote! This costs 100 polyz so do not overuse :)
 
 ## StreamLab ChatBot Commands (Still work through PolymathicalBot)
 
