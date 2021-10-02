@@ -12,10 +12,10 @@ const tmi = require('twitch-js');
 let intervals = [
     'sayHelloHiThink',
     'viewBotCommands',
+    'discussTopic',
     'socialMedia',
     'discordCommunity',
     'gamblePolyPointz',
-    'subGoalMessage'
 ];
 
 let intervalFunctions = intervals.map((interval) => {
