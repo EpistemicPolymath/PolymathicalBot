@@ -74,7 +74,7 @@ A Twitch Chat bot using Twitch-js.
 - **!date** - check the current date for the channel.
 - **!ffz** - check all the available FFZ emotes for the channel (Feel free to recommend some!)
 - **!bttv** - check out all the available BTTV emotes for the channel!
-- **!followdate** - get the date when you or any other user followed the channel.
+- **!followage** - get the date when you or any other user followed the channel.
 - **!followers** - check how many people are following the channel!
 - **!subemotes** - view the available sub emote codes!
 - **!domath** - put some basic math equation for an answer :)
@@ -136,6 +136,7 @@ Give some of these a try :)
 #### Voice Commands
 
 - **!gl** - Keira says "Good Luck" + some Fire Canyon Music :P
+- **!glb** - The Geologists says "Good Luck Bois"
 - **!focus** - tell me to focus on my run by getting Roxas to inspire me by saying, "Leave it to me!" It costs 500 polyz to use :)
 - **!wb** - Mitsuru gives out a nice "Welcome Back!" to those who say brb and actually follow through :).
 - **!kello** - Ken Amada says hello!
