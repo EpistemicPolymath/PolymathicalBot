@@ -126,4 +126,17 @@ client.on('chat', (channel, user, message, self) => {
       }
     });
 
+    if ((/^COCKS/.test(trimmedMessage) || (/^cocks/.test(trimmedMessage)))) {
+        client.action('epistemicpolymath', 'COO CKS');
+    }
+
+    if ((/^TITS/.test(trimmedMessage) || (/^tits/.test(trimmedMessage)))) {
+        client.action('epistemicpolymath', 'TITS');
+    }
+
+    if ((/^DICKS/.test(trimmedMessage) || (/^dicks/.test(trimmedMessage)))) {
+        client.action('epistemicpolymath', 'DICKS');
+    }
+
+
 });
