@@ -1,3 +1,48 @@
+# Update
+
+This bot is currently done being worked on. It was a fun learning experience creating my own Twitch Bot using JavaScript. But now I am moving it's functionality over to FireBot. I can also make custom scripts for the bot there and as I do that I will upload those to my GitHub. I think [FireBot](https://firebot.app/) is a great application and I encourage you to check it out!
+
+There are no longer any commands that rely solely on this bot.
+
+
+I am going to be working on moving the !hello command into a more advanced custom script in FireBot, so for now that is disabled. The only commands still being used are polyz related and song requests related from Streamlabs Chatbot:
+
+## Poly Pointz Commands
+- **!polyz** - check how many poly pointz you have currently and how many hours you have supported the stream!
+- **!give username amount** - give poly pointz to other viewers!
+- **!gamble amount** - gamble polyz, but be careful :P
+- **!top** - shows the top 5 polyz holders.
+- **!top10** - shows the top 10 polyz holders.
+- **!tophours** - shows the top 5 supporters by who has viewed the most hours.
+
+### Chat Minigames
+- **!gamble #**: take a risk and gamble your polyz to have some fun in chat. 
+- **!dice**: It costs 10 polyz to start. You roll 3 dice and depending on the total you roll, you can multiply your prize!
+
+    Here are the *multipliers*:
+
+      Roll a total: 11-14 (2x Multiplier)
+      Roll a total: 15 (3x Multiplier)
+      Roll a total: 16 (4x Multiplier)
+      Roll a total: 17 (5x Multiplier)
+      Roll a total: 18 (100x Multiplier)
+      
+## Song Requests
+
+- **!nextsong** - shows the next song in the queue and who requested it!
+- **!currentsong** - shows the song that is currently playing and who requested it.
+- **!sr** - Request and song using Title or Youtube URL
+- **!skip** - Vote to skip a song!
+- **!veto** - Modz can skip a song immediately. 
+- **!volume** - Adjust the volume of the music
+- **!wrongsong** - removes the last song that the person who triggered the command added.
+- **!songblacklist** add/remove - Modz can add and removes sons to the blacklist
+ 
+
+These commands will soon all be moved over to FireBot. I am aiming for the complete move to be next year in 2022!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # PolymathicalBot
 A Twitch Chat bot using Twitch-js. 
 
@@ -45,25 +90,7 @@ A Twitch Chat bot using Twitch-js.
 
 ## StreamLab ChatBot Commands (Still work through PolymathicalBot)
 
-### Poly Pointz Commands
-- **!polyz** - check how many poly pointz you have currently and how many hours you have supported the stream!
-- **!give username amount** - give poly pointz to other viewers!
-- **!gamble amount** - gamble polyz, but be careful :P
-- **!top** - shows the top 5 polyz holders.
-- **!top10** - shows the top 10 polyz holders.
-- **!tophours** - shows the top 5 supporters by who has viewed the most hours.
 
-### Chat Minigames
-- **!gamble #**: take a risk and gamble your polyz to have some fun in chat. 
-- **!dice**: It costs 10 polyz to start. You roll 3 dice and depending on the total you roll, you can multiply your prize!
-
-    Here are the *multipliers*:
-
-      Roll a total: 11-14 (2x Multiplier)
-      Roll a total: 15 (3x Multiplier)
-      Roll a total: 16 (4x Multiplier)
-      Roll a total: 17 (5x Multiplier)
-      Roll a total: 18 (100x Multiplier)
 
 
 ### Custom Commands
