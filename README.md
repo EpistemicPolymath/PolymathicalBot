@@ -5,7 +5,7 @@ This bot is currently done being worked on. It was a fun learning experience cre
 There are no longer any commands that rely solely on this bot.
 
 
-I am going to be working on moving the !hello command into a more advanced custom script in FireBot, so for now that is disabled. The only commands still being used are polyz related and song requests related from Streamlabs Chatbot:
+I am going to be working on moving the !hello command into a more advanced custom script in FireBot, so for now that is disabled. The only commands still being used are polyz related on Streamlabs Chatbot:
 
 ## Poly Pointz Commands
 - **!polyz** - check how many poly pointz you have currently and how many hours you have supported the stream!
@@ -26,20 +26,8 @@ I am going to be working on moving the !hello command into a more advanced custo
       Roll a total: 16 (4x Multiplier)
       Roll a total: 17 (5x Multiplier)
       Roll a total: 18 (100x Multiplier)
-      
-## Song Requests
 
-- **!nextsong** - shows the next song in the queue and who requested it!
-- **!currentsong** - shows the song that is currently playing and who requested it.
-- **!sr** - Request and song using Title or Youtube URL
-- **!skip** - Vote to skip a song!
-- **!veto** - Modz can skip a song immediately. 
-- **!volume** - Adjust the volume of the music
-- **!wrongsong** - removes the last song that the person who triggered the command added.
-- **!songblacklist** add/remove - Modz can add and removes sons to the blacklist
- 
-
-These commands will soon all be moved over to FireBot. I am aiming for the complete move to be next year in 2022!
+These commands will soon all be moved over to FireBot completely. I am aiming for the complete move to be sometime next year in 2022!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
